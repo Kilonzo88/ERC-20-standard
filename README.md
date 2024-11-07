@@ -49,13 +49,21 @@ initialSupply: The number of tokens to mint when the contract is deployed. This 
 ERC20 Constructor: The constructor of the ERC20 contract is called with "MyToken" as the token's name and "MTK" as its symbol.
 ### Functions
 name(): Returns the name of the token ("MyToken").
+
 symbol(): Returns the symbol of the token ("MTK").
+
 decimals(): Returns the decimals used by the token (default is 18).
+
 totalSupply(): Returns the total supply of the token.
+
 balanceOf(address account): Returns the balance of a given address.
+
 transfer(address to, uint256 value): Transfers tokens to another address.
+
 approve(address spender, uint256 value): Approves another address to spend tokens on behalf of the owner.
+
 allowance(address owner, address spender): Checks the allowance of a spender on the owner’s behalf.
+
 transferFrom(address from, address to, uint256 value): Transfers tokens on behalf of another address, using an allowance.
 
 ## Contributing
